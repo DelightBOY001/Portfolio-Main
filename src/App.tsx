@@ -214,7 +214,7 @@ function Hero() {
             {[
               { icon: Github, href: '#', label: 'GitHub' },
               { icon: Linkedin, href: '#', label: 'LinkedIn' },
-              { icon: Mail, href: '#', label: 'Email' },
+              { icon: Mail, href: 'karanjii190@gmail.com', label: 'Email' },
             ].map((social) => (
               <motion.a
                 key={social.label}
@@ -490,7 +490,7 @@ function Projects() {
       title: 'E-Commerce Platform',
       description: 'A full-featured online store with cart, checkout, and payment integration.',
       tags: ['React', 'Node.js', 'MongoDB'],
-    },
+    },  
     {
       title: 'Portfolio Website',
       description: 'Modern portfolio with smooth animations and responsive design.',
@@ -667,7 +667,7 @@ function Contact() {
             className="flex flex-wrap justify-center gap-8 mt-12"
           >
             {[
-              { label: 'Email', value: 'karan@example.com', icon: Mail },
+              { label: 'Email', value: 'karanjii190@gmail.com', icon: Mail },
               { label: 'Location', value: 'India', icon: ExternalLink },
             ].map((item) => (
               <div key={item.label} className="flex items-center gap-3 text-white/40 font-['Outfit']">
@@ -689,7 +689,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-white/40 text-sm font-['Outfit']">
-            © 2024 Karan Kumar. All rights reserved.
+            © 2026 Karan's Portfolio. All rights reserved.
           </p>
           <div className="flex gap-8">
             {['Privacy', 'Terms', 'Contact'].map((link) => (

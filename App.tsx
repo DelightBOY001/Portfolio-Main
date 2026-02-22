@@ -689,7 +689,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-white/40 text-sm font-['Outfit']">
-            © 2024 Karan Kumar. All rights reserved.
+            © 2026 Karan's Portfolio. All rights reserved.
           </p>
           <div className="flex gap-8">
             {['Privacy', 'Terms', 'Contact'].map((link) => (
